@@ -25,7 +25,7 @@ The only way to exit the "new thread/contrib/comment" modal is to either post or
    - From a UX standpoint, I imagine it would create a lot more edge cases. Experimenting with the single-thread case first would be the best course of action IMO.
    - **Potential use cases:** pulling quotes/content from other threads/boards into your current contribution.
 4. **What happens if the user tries to reply to something else while ?** Can you move what you've typed to a different contrib/comment?
-5. **Are there things we want to build in the future that might conflict with this features?** Off the top of my mind, no. Actually, it will be a great way to make the "quote comment in contribution" flow work better once we have it.
+5. **Are there things we want to build in the future that might conflict with these features?** Off the top of my mind, no. Actually, it will be a great way to make the "quote comment in contribution" flow work better once we have it.
 
 ### What's Already Implemented
 
@@ -33,11 +33,11 @@ The only way to exit the "new thread/contrib/comment" modal is to either post or
 
 ### Prior Art
 
-The only social netwrok software I can think of with a similar function is Discourse.
+The only social network software I can think of with a similar function is Discourse.
 
 - They allow you to minimize the editor and navigate anywhere in their software (AFAICT).
 - They do not have any special indicator on the post that is being replied to, but have a link to it on top of their editor. Clicking the link will load that post/thread.
-  - For posts without a title, it just marks the name of the person you're replying to. If they feature more than once in a thread, there's no specific distinction in that case.
+  - For posts without a title, it just marks the name of the person you're replying to. If they appear more than once in a thread, there's no specific distinction in that case.
 - Clicking on another reply button will immediately mark your current draft as replying to the new post.
 - Selecting text on any post brings up a "quote" callout, which will copy the text into your editor when clicked.
 
